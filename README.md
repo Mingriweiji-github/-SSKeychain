@@ -32,7 +32,7 @@
 注释//#import SSKeychain/SSKeychainQuery.h
 直接导入#import SSKeychainQuery.h
 
-- 具体方法如下 在需要使用的类AppDelegate里先写两个宏定义
+- 具体方法如下 在需要使用的类 例如 AppDelegate里先写两个宏定义
 
 - define keychain_service @"uuid"
 
