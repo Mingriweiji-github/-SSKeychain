@@ -22,7 +22,7 @@
 
 + (BOOL)setPassword:(NSString *)password forService:(NSString*)serviceName account:(NSString *)account;
 
-###2.使用篇
+###2.使用篇------获取不变的UUID可唯一标示设备，即使删除应用UUID仍然不变因此可替代原来的UDID
 - 在工程中加入Security.framework框架。
 
 - 把SSKeychain.h和SSKeychain.m 以及SSKeychainQuery.h SSKeychainQuery.m 加到我们的项目文件夹。
