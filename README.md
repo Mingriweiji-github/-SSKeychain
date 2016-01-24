@@ -42,7 +42,7 @@
 
 -  pragma mark SSKeychain 获取不变的UUID
 
-- (NSString *)getUUID
+- -(NSString *)getUUID
 {
     NSString *strUUID = [SSKeychain passwordForService:keychain_service account:keychain_account];
     NSError *error=nil;
