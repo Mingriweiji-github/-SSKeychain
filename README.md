@@ -2,7 +2,7 @@
 #### SSKeychain获取不变的UUID可唯一标示设备的使用心得
 ####SSKeyChains对苹果安全框架API进行了简单封装，支持对存储在钥匙串中密码、账户进行访问，包括读取、删除和设置。SSKeyChain的作者是大名鼎鼎的SSToolkit的作者samsoffes。
 ####1.准备篇
-####项目地址：https://github.com/Mingriweiji-github/-SSKeychain
+####SSKeychain下载地址：https://github.com/Mingriweiji-github/sskeychain-master
 
 在工程中加入SSKeyChain
 
